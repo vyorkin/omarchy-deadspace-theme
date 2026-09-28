@@ -24,8 +24,8 @@ cyan    = "#f6f5f5"
 white   = "#ffffff"
 
 [colors.selection]
-text       = "#010101"
-background = "#c1baba"
+text       = "#ffffff"
+background = "#3f3f3f"
 
 [colors.cursor]
 text   = "#010101"

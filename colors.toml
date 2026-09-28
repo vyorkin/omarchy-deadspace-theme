@@ -11,10 +11,11 @@
 
 accent = "#c1baba"
 
-# Highlighted text: bright grey fill, near-black text (same pairing the theme
-# already uses in aether.override.css and vscode_colors.json).
-selection = "#c1baba"
-selection_foreground = "#010101"
+# Highlighted text: dark grey fill, light text. The pairing is deliberate —
+# keeping selected text light-on-dark avoids the thinner, washed-out strokes
+# terminals produce for dark glyphs over a pale background.
+selection = "#3f3f3f"
+selection_foreground = "#ffffff"
 
 background = "#010101"
 foreground = "#ffffff"
