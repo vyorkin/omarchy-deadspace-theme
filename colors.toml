@@ -1,0 +1,37 @@
+# Dead Space — semantic palette for Omarchy.
+#
+# Omarchy renders every themed config (kitty, ghostty, alacritty, foot, neovim,
+# vscode, ...) from this file. Values match the palette already shipped in
+# alacritty.toml and kitty.conf.
+#
+# Selection is the one thing Omarchy cannot infer: without an explicit
+# `selection` it falls back to the foreground, and `selection_foreground`
+# falls back to the bright foreground, which left selected text white on
+# white and unreadable in the terminal.
+
+accent = "#c1baba"
+
+# Highlighted text: bright grey fill, near-black text (same pairing the theme
+# already uses in aether.override.css and vscode_colors.json).
+selection = "#c1baba"
+selection_foreground = "#010101"
+
+background = "#010101"
+foreground = "#ffffff"
+
+color0 = "#010101"
+color1 = "#958a8a"
+color2 = "#a49a9a"
+color3 = "#b2aaaa"
+color4 = "#c1baba"
+color5 = "#cfcaca"
+color6 = "#dedada"
+color7 = "#F6F6F5"
+color8 = "#dddbdb"
+color9 = "#ada5a5"
+color10 = "#bcb5b5"
+color11 = "#cac5c5"
+color12 = "#d9d5d5"
+color13 = "#e7e5e5"
+color14 = "#f6f5f5"
+color15 = "#ffffff"

@@ -23,6 +23,10 @@ magenta = "#e7e5e5"
 cyan    = "#f6f5f5"
 white   = "#ffffff"
 
+[colors.selection]
+text       = "#010101"
+background = "#c1baba"
+
 [colors.cursor]
 text   = "#010101"
 cursor = "#ffffff"
